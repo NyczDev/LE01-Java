@@ -15,5 +15,7 @@ public class Exercicio15 {
         double distancia = Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
 
         System.out.printf("A distância entre os pontos P1(%.2f, %.2f) e P2(%.2f, %.2f) é: %.2f\n", x1, y1, x2, y2, distancia);
+
+        sc.close();
     }
 }
