@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
-public class Ex6 {
-    public static void main(String[] args) {
+public class Exercicio06 {
+    public static void executar() {
         Scanner sc = new Scanner(System.in);
-        
+
         System.out.println("Digite a temperatura em graus Celsius:");
         double celsius = sc.nextDouble();
 

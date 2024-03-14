@@ -1,8 +1,9 @@
 import java.util.Scanner;
-public class Ex4 {
-    public static void main(String[] args) {
+
+public class Exercicio04 {
+    public static void executar() {
         Scanner sc = new Scanner(System.in);
-        
+
         System.out.println("Digite o primeiro numero:");
         int num1 = sc.nextInt();
         System.out.println("\nDigite o segundo numero:");
@@ -18,7 +19,6 @@ public class Ex4 {
         System.out.println("A multiplicaçao total deu : " + mult);
         System.out.println("A divisao total deu : " + div);
 
-        
         sc.close();
     }
 }

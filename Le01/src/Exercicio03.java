@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
-public class Ex3 {
-    public static void main(String[] args) {
+public class Exercicio03 {
+    public static void executar() {
         Scanner sc = new Scanner(System.in);
-        
+
         System.out.println("Digite o primeiro número inteiro:");
         int num1 = sc.nextInt();
         System.out.println("Digite o segundo número inteiro:");

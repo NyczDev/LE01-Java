@@ -3,9 +3,8 @@
 
 import java.util.Scanner;
 
-public class Ex1 {
-    public static void main(String[] args) throws Exception {
-        
+public class Exercicio01 {
+    public static void executar() {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Coloque o Numero: ");
         int number = scanner.nextInt();
@@ -15,7 +14,7 @@ public class Ex1 {
         } else {
             System.out.println("Número menor ou igual a 10!");
         }
-        
+
         scanner.close();
     }
 }
