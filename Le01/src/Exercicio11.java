@@ -30,5 +30,7 @@ public class Exercicio11 {
         System.out.println(num1);
         System.out.println(num2);
         System.out.println(num3);
+
+        ler.close();
     }
 }

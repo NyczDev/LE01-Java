@@ -38,5 +38,7 @@ public class Exercicio13 {
         }
 
         System.out.printf("%.2f %c %.2f = %.2f\n", num1, operador, num2, result);
+
+        sc.close();
     }
 }
