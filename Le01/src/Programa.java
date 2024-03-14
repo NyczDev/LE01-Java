@@ -76,10 +76,10 @@ public class Programa {
             case 14:
                 Exercicio14.executar();
                 break;
-            /*case 15:
+            case 15:
                 Exercicio15.executar();
                 break;
-            case 16:
+            /*case 16:
                 Exercicio16.executar();
                 break;
             case 17:
