@@ -16,5 +16,6 @@ public class Exercicio18 {
         double mediaHarmonica = 3 / (1/nota1 + 1/nota2 + 1/nota3);
 
         System.out.printf("A média harmônica das notas %.2f, %.2f e %.2f é: %.2f\n", nota1, nota2, nota3, mediaHarmonica);
+        sc.close();
     }
 }
